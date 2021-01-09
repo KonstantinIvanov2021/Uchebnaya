@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d640d61-55e5-4657-b0f6-3fe2549fb93f">
+  <producedTypes>
+    <objectType typeId="166f5320-c1de-4a06-812e-85ac304a4935" valueTypeId="946fdab2-0cf2-468c-903e-81a67a0ee061"/>
+    <refType typeId="78a8b9d5-7b48-4852-bb17-9bc149346207" valueTypeId="ac57c430-8f87-41dc-baf3-f19c6c2bde36"/>
+    <selectionType typeId="cfc08f11-422d-41b2-8812-0362f92e706c" valueTypeId="a42793ef-bea5-4297-a6c2-f39b03873170"/>
+    <listType typeId="8c9e1c02-93cf-43c3-9c89-40532d833554" valueTypeId="3ca57429-3b42-40e9-9c35-a01908b1be8b"/>
+    <managerType typeId="71ea7bdd-c1ce-4876-abb5-92282d826443" valueTypeId="eb2b0323-03e8-4bcf-9b59-348b96edca45"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d4fa5880-2c22-4bc8-8d79-2c703255aee2">
+      <name>Штука</name>
+      <description>Штука</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

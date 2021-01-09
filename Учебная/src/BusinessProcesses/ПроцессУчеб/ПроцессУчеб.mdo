@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1ae5d27-a83d-4804-89b6-7c51fd34608d">
+  <producedTypes>
+    <objectType typeId="c2f98dde-887d-43b9-884f-bf45670ad131" valueTypeId="98602571-151d-44bf-8970-fa5ae05c9070"/>
+    <refType typeId="fe48cdf5-2d8a-4b5b-bcc0-60635e1de6d2" valueTypeId="5c602281-b8a0-4e1e-aa6c-88db3f1d7830"/>
+    <selectionType typeId="30094b61-2cb6-4c31-bb56-995c86f6fd8a" valueTypeId="9a729f6e-6c3e-41f6-8843-a5a1be4ad3be"/>
+    <listType typeId="c4f562b6-b097-4a8e-8563-8608276b85d6" valueTypeId="9a87b9db-0119-4d03-8ab8-85c5eb11c56b"/>
+    <managerType typeId="5d4bbcf8-9c3d-4c83-a0a1-a7a44b1a2fd8" valueTypeId="f4efe0a2-00ab-42ff-acb0-45b80dfc3e7a"/>
+    <routePointRef typeId="1445945d-0d5d-4258-affd-b60ed2e9970a" valueTypeId="6d7b204e-25c1-4794-b661-be016029a81e"/>
+  </producedTypes>
+  <name>ПроцессУчеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процесс учеб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ПроцессУчеб.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачиУчеб</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+</mdclass:BusinessProcess>

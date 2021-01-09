@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e74b82a3-eb3f-49b6-b354-0e07a19abd4c">
+  <name>Общие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие</value>
+  </synonym>
+  <comment>Общие данные о предприятии</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Общие данные</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
+  </picture>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>DataProcessor.РабочийСтол</content>
+  <content>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</content>
+  <content>Catalog.ЗначенияСвойствНоменклатуры</content>
+  <content>InformationRegister.ОписаниеСвойствНоменклатуры</content>
+  <content>FunctionalOption.Склады</content>
+</mdclass:Subsystem>

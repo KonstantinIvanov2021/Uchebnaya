@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd02a9b-5b5b-4664-b767-96e9da9f263f">
+  <producedTypes>
+    <managerType typeId="f548c92c-0941-4979-9f78-5a4149e4ab70" valueTypeId="74f5698f-41f9-4f26-b6c5-40c2d69731f3"/>
+    <valueManagerType typeId="990fbc60-72bf-4031-8154-f1bb55aa72c2" valueTypeId="a586627e-11d0-49ae-8659-e4de4dbd84ec"/>
+    <valueKeyType typeId="62d08a04-3589-4d59-b351-dc44fdaa7ef2" valueTypeId="45997c76-dc53-4c04-a2f7-7a88012213fa"/>
+  </producedTypes>
+  <name>НазваниеКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Название компании</value>
+  </synonym>
+  <comment>Наша компашка</comment>
+  <dataHistory>Use</dataHistory>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>60</length>
+    </stringQualifiers>
+  </type>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Введите название компаниии</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Надо заполнить компанию</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Заполни компанию!!!</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e16927-ae6e-4a99-80ca-287d83e9080a">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебная</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0d89cc73-c369-445c-ad39-390fccbcf076"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3eaa48d2-13e0-4bb6-9025-5e36825f40f0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c49d6bba-b978-44a6-8594-e17d38d43ec6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="da43de83-b408-4f58-a8a4-c3f8a258eb8e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="63839d78-4b19-4926-b0f3-237956b080f6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9919841a-647b-4c4b-ad93-2471f78b205c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bd736559-ea9a-41f0-a5b4-654e55b6c1b3"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Мое изобретение</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="6687b55d-d795-4e98-9835-f65ff809c332">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Общие</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Персонал</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Процессы</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <roles>Role.Админ</roles>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.СервернаяСреда</commonModules>
+  <functionalOptions>FunctionalOption.Склады</functionalOptions>
+  <constants>Constant.НазваниеКомпании</constants>
+  <constants>Constant.АдресКомпаниии</constants>
+  <constants>Constant.УчетПоСкладам</constants>
+  <constants>Constant.УчетПоСериям</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.КонтактынеЛица</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ЗначенияСвойствНоменклатуры</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documentJournals>DocumentJournal.Складские</documentJournals>
+  <enums>Enum.ВидыТоваров</enums>
+  <enums>Enum.ПолМЖ</enums>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ПодразделенияИерархия1</reports>
+  <reports>Report.ПодразделенияИерархияЗапрос</reports>
+  <reports>Report.Остатки</reports>
+  <reports>Report.ОтчетПоНаборуДанныхОбъект</reports>
+  <reports>Report.ОтчетПоЖурналуРегистрации</reports>
+  <reports>Report.ОтчетПоЖурналуРегистрации2</reports>
+  <reports>Report.ПродажиФиксацияШапки</reports>
+  <reports>Report.ОстаткиПартийТоваров1</reports>
+  <reports>Report.ОстаткиПартийТоваров1_СКД</reports>
+  <reports>Report.ПродажиНакладная</reports>
+  <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
+  <dataProcessors>DataProcessor.VanessaAutomationsingle</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.ОписаниеСвойствНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.ПроцессУчеб</businessProcesses>
+  <tasks>Task.ЗадачиУчеб</tasks>
+</mdclass:Configuration>
