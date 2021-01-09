@@ -50,6 +50,7 @@
   <roles>Role.Админ</roles>
   <roles>Role.Пользователь</roles>
   <commonModules>CommonModule.СервернаяСреда</commonModules>
+  <commonModules>CommonModule.Расчеты</commonModules>
   <functionalOptions>FunctionalOption.Склады</functionalOptions>
   <constants>Constant.НазваниеКомпании</constants>
   <constants>Constant.АдресКомпаниии</constants>
