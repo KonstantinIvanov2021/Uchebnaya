@@ -50,7 +50,7 @@
   <roles>Role.Админ</roles>
   <roles>Role.Пользователь</roles>
   <commonModules>CommonModule.СервернаяСреда</commonModules>
-  <commonModules>CommonModule.Расчеты</commonModules>
+  <commonModules>CommonModule.Расчет</commonModules>
   <functionalOptions>FunctionalOption.Склады</functionalOptions>
   <constants>Constant.НазваниеКомпании</constants>
   <constants>Constant.АдресКомпаниии</constants>
@@ -90,10 +90,13 @@
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <informationRegisters>InformationRegister.ОписаниеСвойствНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикРабот</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ЖурналНачислений</calculationRegisters>
   <businessProcesses>BusinessProcess.ПроцессУчеб</businessProcesses>
   <tasks>Task.ЗадачиУчеб</tasks>
 </mdclass:Configuration>
