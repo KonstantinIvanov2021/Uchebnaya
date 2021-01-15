@@ -49,6 +49,7 @@
   <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <roles>Role.Админ</roles>
   <roles>Role.Пользователь</roles>
+  <commonTemplates>CommonTemplate.Макет</commonTemplates>
   <commonModules>CommonModule.СервернаяСреда</commonModules>
   <commonModules>CommonModule.Расчет</commonModules>
   <functionalOptions>FunctionalOption.Склады</functionalOptions>
@@ -68,6 +69,7 @@
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ЗначенияСвойствНоменклатуры</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <documents>Document.СчетНаОплату</documents>
@@ -91,6 +93,7 @@
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <informationRegisters>InformationRegister.ОписаниеСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикРабот</informationRegisters>
+  <informationRegisters>InformationRegister.Календарь</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьТоваров</accumulationRegisters>
@@ -99,4 +102,5 @@
   <calculationRegisters>CalculationRegister.ЖурналНачислений</calculationRegisters>
   <businessProcesses>BusinessProcess.ПроцессУчеб</businessProcesses>
   <tasks>Task.ЗадачиУчеб</tasks>
+  <externalDataSources>ExternalDataSource.ВнешнийИсточникДанных</externalDataSources>
 </mdclass:Configuration>

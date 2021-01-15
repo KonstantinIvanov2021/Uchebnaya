@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6610a449-ff58-4af2-97e7-249c76ea142f">
+  <producedTypes>
+    <managerType typeId="1ab3a6a0-56cc-4b2a-984e-6b4b7a32160e" valueTypeId="2cba9915-ad4e-4886-8dde-c5f4fd781842"/>
+    <tablesManagerType typeId="81a3da6e-f1b2-4158-85f8-0baecce11bec" valueTypeId="b63fc133-fb98-43cf-ba23-9ed0e61240aa"/>
+    <cubesManagerType typeId="610df81b-ea2b-4d10-b190-acf7df0be82b" valueTypeId="15dcb9d0-4339-4404-85da-ad3b5ff85e62"/>
+  </producedTypes>
+  <name>ВнешнийИсточникДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний источник данных</value>
+  </synonym>
+</mdclass:ExternalDataSource>

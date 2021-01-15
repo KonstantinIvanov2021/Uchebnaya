@@ -56,23 +56,36 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="b06008ac-6886-4a3e-b7a4-6d2a53a29948">
+  <attributes uuid="5c9eb313-3c9a-4ec0-b975-682e74b9b927">
     <name>Параметр</name>
     <synonym>
       <key>ru</key>
       <value>Параметр</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </resources>
+  </attributes>
+  <attributes uuid="1c8a306d-c7a4-4113-8392-77548831835c">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <scheduleLink>InformationRegister.ГрафикРабот.Dimension.График</scheduleLink>
+  </attributes>
   <dimensions uuid="d0702c36-f18a-4c01-be4a-c3884b8a848a">
     <name>Сотрудник</name>
     <synonym>
