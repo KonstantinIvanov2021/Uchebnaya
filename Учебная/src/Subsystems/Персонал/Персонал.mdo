@@ -9,7 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Подразделения</content>
-  <content>ChartOfCalculationTypes.Начисления</content>
-  <content>CalculationRegister.ЖурналНачислений</content>
   <content>InformationRegister.Календарь</content>
 </mdclass:Subsystem>

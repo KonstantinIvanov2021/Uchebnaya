@@ -9,5 +9,4 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Task.ЗадачиУчеб</content>
   <content>BusinessProcess.ПроцессУчеб</content>
-  <content>DataProcessor.VanessaAutomationsingle</content>
 </mdclass:Subsystem>

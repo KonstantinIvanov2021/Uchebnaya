@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1807a1-52a7-473b-8aa5-6491c6e8cfde">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d676fe17-6f47-4cc3-8d5b-9c2925b57827">
   <producedTypes>
-    <selectionType typeId="a430fe50-66b1-4015-b7c7-b9ea070d643c" valueTypeId="d1c1f816-c552-473e-a0b3-60256a27a1d7"/>
-    <listType typeId="37b82895-2e35-4988-876b-d7496b71e884" valueTypeId="bdef0bb0-a81b-4f3b-a0f0-2fff753c6cc8"/>
-    <managerType typeId="74a21f47-7e80-4847-be03-eeb6ead0ec05" valueTypeId="69bc6097-559d-4252-9360-3276e259cb5a"/>
-    <recordSetType typeId="841c2d86-85c4-4b3b-a278-4a15dc1e1a17" valueTypeId="73b19118-e310-42aa-a1d7-ead8d72a5a37"/>
-    <recordKeyType typeId="2461e514-40c8-4acb-aed7-d34baca5036b" valueTypeId="a3835885-a801-4603-8f27-decc0c89f7c5"/>
-    <recordType typeId="f7c4e646-e832-49b7-b679-66888d767d2b" valueTypeId="ce0581f8-469d-4d35-b911-ebb8a1c357a3"/>
-    <recordManagerType typeId="ec5daa34-63cb-4c20-959e-782bc83116b8" valueTypeId="1c1f4db3-15b3-40b4-9cd3-47d4cf054f72"/>
+    <selectionType typeId="e49a40e9-8b70-4069-b0f8-f98bbc171c7a" valueTypeId="d3bcdd5c-2bb4-45a9-a820-ef836807c9d6"/>
+    <listType typeId="1868f6ae-d6ec-4914-b707-e57a2bd123cc" valueTypeId="a9090016-e98c-4451-b64f-56fc3d0fb4d5"/>
+    <managerType typeId="5f16f58e-201c-4f0a-bede-1d4396c687d4" valueTypeId="a1a5f123-eda5-44a6-b4bc-feec7617e36a"/>
+    <recordSetType typeId="3d3d584b-ee0b-4de6-be21-2b9f50193c53" valueTypeId="b3e2aa5d-0030-4548-9f16-89be4cef6826"/>
+    <recordKeyType typeId="1b49c662-3a62-40e5-be3c-9f64c21452e4" valueTypeId="96655fa1-630b-4ba3-91f7-c46bbb39d5c6"/>
+    <recordType typeId="6b9acd3f-6b3c-4355-a961-721d9c2f494d" valueTypeId="1b281bfc-9a17-4639-8e4a-f6c8f50cafe2"/>
+    <recordManagerType typeId="c8b297fa-30af-4dff-a039-8fb2021945fc" valueTypeId="d0e66df5-dd66-4da9-9851-9e3d8ef0df6b"/>
   </producedTypes>
   <name>КурсыВалют</name>
   <synonym>
@@ -16,11 +16,43 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <enableTotalsSliceLast>true</enableTotalsSliceLast>
-  <resources uuid="69c398c6-1bdf-4fdd-a54e-ed06a5bcb6b8">
+  <resources uuid="c1beb564-8b1f-49a5-9e80-8e9719c72025">
     <name>Курс</name>
     <synonym>
       <key>ru</key>
@@ -29,17 +61,20 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
-        <scale>4</scale>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="4cf405b8-833d-43dc-b924-b9360c9c995f">
+  <dimensions uuid="62cedb1e-be7f-49f3-befd-60848d58139e">
     <name>Валюта</name>
     <synonym>
       <key>ru</key>

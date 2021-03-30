@@ -24,9 +24,7 @@
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Валюты</content>
   <content>InformationRegister.КурсыВалют</content>
-  <content>DataProcessor.РабочийСтол</content>
   <content>ChartOfCharacteristicTypes.ВидыСвойствНоменклатуры</content>
   <content>Catalog.ЗначенияСвойствНоменклатуры</content>
   <content>InformationRegister.ОписаниеСвойствНоменклатуры</content>
-  <content>FunctionalOption.Склады</content>
 </mdclass:Subsystem>
